@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harman.PatientDemographics.Api", "Harman.PatientDemographics.Api\Harman.PatientDemographics.Api.csproj", "{0888FE01-EDAD-42A0-A39E-0F15590EE149}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harman.PatientDemographics.Business", "Harman.PatientDemographics.Business\Harman.PatientDemographics.Business.csproj", "{70DF6ADC-150F-471F-8A44-3D76CA5C79F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harman.PatientDemographics.Repository", "Harman.PatientDemographics.Repository\Harman.PatientDemographics.Repository.csproj", "{66564ECD-9110-4715-9794-9562C0055F61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harman.PatientDemographics.Dal", "Harman.PatientDemographics.Dal\Harman.PatientDemographics.Dal.csproj", "{DEC8C5C5-870B-4D3D-8204-83D484EA414E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harman.PatientDemographics.Domain", "Harman.PatientDemographics.Domain\Harman.PatientDemographics.Domain.csproj", "{E5D42391-8E53-4EDA-9ACF-979C8651972C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harman.PatientDemographics.ViewModel", "Harman.PatientDemographics.ViewModel\Harman.PatientDemographics.ViewModel.csproj", "{A6A66494-BAA7-455A-B57F-28BFC3E29257}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harman.PatientDemographics.Common", "Harman.PatientDemographics.Common\Harman.PatientDemographics.Common.csproj", "{99E1E8A8-51B5-4EA1-A699-5316F002154A}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Harman.PatientDemographics.ModelDb", "Harman.PatientDemographics.ModelDb\Harman.PatientDemographics.ModelDb.sqlproj", "{30538323-CD80-4024-B1CB-4B6691414829}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{4F7127EC-28F5-43CB-8424-51234C5CD3C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DatabaseInitializer", "DatabaseInitializer", "{FA994252-3A78-4C0D-8B7C-283BA3781ACA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harman.PatientDemographics.Test", "Harman.PatientDemographics.Test\Harman.PatientDemographics.Test.csproj", "{F81FDC16-9EB8-4268-A360-A513ACD7A9C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0888FE01-EDAD-42A0-A39E-0F15590EE149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0888FE01-EDAD-42A0-A39E-0F15590EE149}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0888FE01-EDAD-42A0-A39E-0F15590EE149}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0888FE01-EDAD-42A0-A39E-0F15590EE149}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70DF6ADC-150F-471F-8A44-3D76CA5C79F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70DF6ADC-150F-471F-8A44-3D76CA5C79F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70DF6ADC-150F-471F-8A44-3D76CA5C79F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70DF6ADC-150F-471F-8A44-3D76CA5C79F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66564ECD-9110-4715-9794-9562C0055F61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66564ECD-9110-4715-9794-9562C0055F61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66564ECD-9110-4715-9794-9562C0055F61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66564ECD-9110-4715-9794-9562C0055F61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEC8C5C5-870B-4D3D-8204-83D484EA414E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEC8C5C5-870B-4D3D-8204-83D484EA414E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEC8C5C5-870B-4D3D-8204-83D484EA414E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEC8C5C5-870B-4D3D-8204-83D484EA414E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5D42391-8E53-4EDA-9ACF-979C8651972C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5D42391-8E53-4EDA-9ACF-979C8651972C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5D42391-8E53-4EDA-9ACF-979C8651972C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5D42391-8E53-4EDA-9ACF-979C8651972C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6A66494-BAA7-455A-B57F-28BFC3E29257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6A66494-BAA7-455A-B57F-28BFC3E29257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6A66494-BAA7-455A-B57F-28BFC3E29257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6A66494-BAA7-455A-B57F-28BFC3E29257}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99E1E8A8-51B5-4EA1-A699-5316F002154A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99E1E8A8-51B5-4EA1-A699-5316F002154A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99E1E8A8-51B5-4EA1-A699-5316F002154A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99E1E8A8-51B5-4EA1-A699-5316F002154A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30538323-CD80-4024-B1CB-4B6691414829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30538323-CD80-4024-B1CB-4B6691414829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30538323-CD80-4024-B1CB-4B6691414829}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{30538323-CD80-4024-B1CB-4B6691414829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30538323-CD80-4024-B1CB-4B6691414829}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30538323-CD80-4024-B1CB-4B6691414829}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F81FDC16-9EB8-4268-A360-A513ACD7A9C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F81FDC16-9EB8-4268-A360-A513ACD7A9C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F81FDC16-9EB8-4268-A360-A513ACD7A9C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F81FDC16-9EB8-4268-A360-A513ACD7A9C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{30538323-CD80-4024-B1CB-4B6691414829} = {FA994252-3A78-4C0D-8B7C-283BA3781ACA}
+		{F81FDC16-9EB8-4268-A360-A513ACD7A9C9} = {4F7127EC-28F5-43CB-8424-51234C5CD3C7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {71EE5FDD-ADDC-45FE-B8CA-986FDE0D5228}
+	EndGlobalSection
+EndGlobal

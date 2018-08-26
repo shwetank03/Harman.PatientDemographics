@@ -1,0 +1,11 @@
+﻿CREATE PROCEDURE usp_PatientDetailsGet
+AS
+	BEGIN
+	SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
+		
+		SELECT Id,Record 
+		FROM	PatientDetails
+	
+	END
+	GO
+	
