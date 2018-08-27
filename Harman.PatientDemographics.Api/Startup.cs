@@ -30,6 +30,17 @@ namespace Harman.PatientDemographics.Api
         {
             AddWebApi(services);
             InitializeIoC.RegisterAll(services, ConnectionString);
+            services.AddCors(o =>
+            {
+                o.AddPolicy("AllowAll", policyBuilder =>
+                {
+                    policyBuilder.AllowAnyMethod()
+                        .AllowAnyHeader()
+                        .AllowCredentials();
+
+                    policyBuilder.WithOrigins("http://localhost:4200");
+                });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -41,6 +52,7 @@ namespace Harman.PatientDemographics.Api
             }
 
             app.UseMvc();
+            app.UseCors("AllowAll");
         }
 
         public static IMvcCoreBuilder AddWebApi(IServiceCollection services)

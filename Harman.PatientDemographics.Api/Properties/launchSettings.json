@@ -18,7 +18,7 @@
     },
     "Harman.PatientDemographics.Api": {
       "commandName": "Project",
-      "launchUrl": "api/values",
+      "launchUrl": "api/Patient",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },

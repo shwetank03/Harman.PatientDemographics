@@ -49,7 +49,6 @@ namespace Harman.PatientDemographics.Common
                 {
                     writer.Formatting = System.Xml.Formatting.Indented;
                     serializer.WriteObject(writer, item);
-                    serializer.WriteObject(writer, item);
                     writer.Flush();
                     return sw.ToString();
                 }
